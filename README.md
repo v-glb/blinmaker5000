@@ -24,6 +24,16 @@ the Calculate!-Button. Like shown below:
 
 ![demo](assets/demo.gif)
 
+## Try it yourself!
+
+If you're on Linux x64, follow these steps:
+
+- Download the [blinmaker5000-linux-x64-1.0.0.zip](https://github.com/v-glb/blinmaker5000/releases/download/1.0.0/blinmaker5000-linux-x64-1.0.0.zip)
+archive and extract it
+- Open a terminal
+- Navigate to `blinmaker5000-linux-x64-1.0.0/blinmaker5000-linux-x64`
+- Execute the app: `./blinmaker5000`
+
 ## Credits
 
 ### Images
