@@ -1,0 +1,41 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f7f8fa !important;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  padding: 25px;
+}
+
+.greeting {
+  display: block;
+}
+
+.carousel {
+  display: none;
+}
+
+.carousel-cell {
+  width: 100%;
+  /* full width */
+  height: 400;
+  /* height of carousel */
+  margin-right: 10px;
+}
+
+.carousel img {
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel img {
+    height: 400px;
+  }
+}
+
+#calcBtn {
+  display: none;
+}

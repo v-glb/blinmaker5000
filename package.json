@@ -1,0 +1,67 @@
+{
+  "name": "blinmaker5000",
+  "productName": "blinmaker5000",
+  "version": "1.0.0",
+  "description": "Calculate how many blins you can cook",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "v-glb",
+    "email": "v.networks@posteo.de"
+  },
+  "license": "GNU GPL V3",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "blinmaker5000"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip"
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {
+            "maintainer": "v-glb",
+            "homepage": "https://v-glb.github.io/resume"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {
+            "maintainer": "v-glb",
+            "homepage": "https://v-glb.github.io/resume"
+          }
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "flickity": "^2.2.1",
+    "flickity-fullscreen": "^1.1.1",
+    "flickity-imagesloaded": "^2.0.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "6.0.0-beta.47",
+    "@electron-forge/maker-deb": "6.0.0-beta.47",
+    "@electron-forge/maker-rpm": "6.0.0-beta.47",
+    "@electron-forge/maker-squirrel": "6.0.0-beta.47",
+    "@electron-forge/maker-zip": "6.0.0-beta.47",
+    "electron": "7.1.8"
+  }
+}
